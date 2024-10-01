@@ -22,6 +22,7 @@ justify-content: space-between;
   text-decoration: none;
   padding: 0;
   margin-top: 8px;
+  background-image: cover;
 }
 
 .card__like-button:hover {
