@@ -19,7 +19,7 @@ A basic but yet interactive profile of a Aviator named Bessie Coleman and photos
 
 This webpage is deployed to GitHub Pages
 
--Deployment link:
+-[Deployment link:](https://hollowedz.github.io/se_project_spots/)
 
 * Intro  
 * Figma  
