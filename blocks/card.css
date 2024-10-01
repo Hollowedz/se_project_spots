@@ -49,8 +49,8 @@ justify-content: space-between;
 }
 
 @media screen and (max-width: 627px) {
-.cards {
-  padding-bottom: 20px;
+  .cards {
+    padding-bottom: 20px;
 }
 
 .card__image {
