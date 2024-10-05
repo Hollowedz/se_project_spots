@@ -23,7 +23,14 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 627px) {
+  .cards__list {
+    row-gap: 20px;
+    column-gap: 20px;
+}
+}
+
+@media screen and (max-width: 32px) {
   .cards__list {
     row-gap: 20px;
     column-gap: 20px;
