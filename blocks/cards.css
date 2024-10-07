@@ -29,10 +29,3 @@
     column-gap: 20px;
 }
 }
-
-@media screen and (max-width: 327px) {
-  .cards__list {
-    row-gap: 20px;
-    column-gap: 20px;
-  }
-}
