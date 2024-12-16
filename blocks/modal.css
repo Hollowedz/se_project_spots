@@ -136,7 +136,23 @@
 
 .modal__input:hover {
   cursor: pointer;
-  border-color:  rgba(33, 33, 33, 1);
+  border-color: rgba(33, 33, 33, 1);
+}
+
+.modal__input_type_error {
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
+.modal__error {
+  display: block;
+  color: rgba(255, 0, 0, 0.7);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .modal__submit-button {
@@ -154,6 +170,17 @@
 
 .modal__submit-button:hover {
   cursor: pointer;
+  opacity: 0.8;
+}
+
+.modal__submit-button:disabled,
+.modal__submit-button:disabled:hover {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.modal__submit-button-error {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 627px) {
@@ -171,8 +198,8 @@
   }
 
   .modal__image {
-  border-radius: 4px;
-  max-width: 288px;
+    border-radius: 4px;
+    max-width: 288px;
   }
 
   .modal__title {
@@ -202,5 +229,9 @@
 
   .modal__submit-button {
     width: 100%;
+  }
+
+  .modal__submit-button-error {
+    opacity: 0.5;
   }
 }
