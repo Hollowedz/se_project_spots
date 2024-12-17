@@ -99,11 +99,20 @@ const handleEscapeKey = (evt) => {
 function openModal(modal) {
   modal.classList.add("modal_opened");
   document.addEventListener("keydown", handleEscapeKey);
+  const handleOverLayClick = (evt) => {
+    if (evt.target === modal) {
+      closeModal(modal);
+      modal.removeEventListener("mousedown", handleOverLayClick);
+    }
+  };
+
+  modal.addEventListener("mousedown", handleOverLayClick);
 }
 
 function closeModal(modal) {
   modal.classList.remove("modal_opened");
   document.removeEventListener("keydown", handleEscapeKey);
+
 }
 
 function handleEditFormSubmit(evt) {
