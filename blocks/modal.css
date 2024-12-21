@@ -179,7 +179,7 @@
   opacity: 0.5;
 }
 
-.modal__submit-button-error {
+.modal__submit-button_disabled {
   opacity: 0.5;
 }
 
